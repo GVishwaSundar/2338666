@@ -35,11 +35,12 @@ This is the Frontend Track implementation for the Afford Medical Technologies ca
 4. The application will be available at **`http://localhost:3000`**.
 
 ## Screenshots
-Screenshots of the working application should be placed in a `screenshots/` directory (or uploaded directly during submission).
-- **Desktop View:** Capture the "All Notifications" page with a filter applied.
-- **Priority Inbox:** Capture the "Priority Inbox" showing the top N unread items.
-- **Mobile View:** Resize the browser window to mobile width and capture the responsive layout.
-- **Console Logs:** Open Developer Tools (F12) -> Console to capture the successful `[Logger] ✅ INFO` entries.
+- **Desktop View:**
+  ![All Notifications](All%20Notifications%20-%20NotifyHub%20%E2%80%94%20Notification%20App.png)
+- **Priority Inbox:**
+  ![Priority Inbox](Priority%20inbox%20--%20NotifyHub%20%E2%80%94%20Notification%20App.png)
+- **Console Logs:**
+  ![Console Logs](console%20logs.png)
 
 ## Notes
 - **Token Expiration:** The access token provided via the evaluation API expires every 15 minutes. When testing locally, you may encounter `401 Unauthorized` errors. To resolve this, re-authenticate via Postman and update `ACCESS_TOKEN` in `notification_app_fe/src/config/auth.js`.
